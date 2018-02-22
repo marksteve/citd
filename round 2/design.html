@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * { box-sizing: border-box; }
+            body {
+                margin: 0;
+                background: url(assets/bg.jpg) no-repeat center center;
+                background-size: cover;
+                font: 20px/1.5 Montserrat, sans-serif;
+                color: white;
+                font-weight: 300;
+            }
+            main {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            header, footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 40px 20px;
+                height: 15vh;
+            }
+            footer {
+                font-size: .8em;
+            }
+            a {
+                color: dodgerblue;
+                text-decoration: none;
+            }
+            .content {
+                height: 70vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .pager {
+                color: #ccc;
+                padding-right: 10px;
+                border-right: 1px solid;
+                
+            }
+            .pager > div {
+                line-height: 3rem;
+            }
+            .pager .active {
+                color: dodgerblue;
+                border-right: 1px solid white;
+            }
+            .subtitle {
+                font-size: 0.6em;
+                position: relative;
+            }
+            .copy {
+                width: 30vw;
+                padding-left: 40px;
+            }
+            .subtitle:before {
+                content: ' ';
+                display: block;
+                position: absolute;
+                width: 30px;
+                border-top: 1px solid dodgerblue;
+                top: 5px;
+                left: -40px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <img src='assets/make-logo48x40px.svg'>
+                <img src='assets/icon-menu48x32px.svg'>
+            </header>
+            <div class='content'>
+                <div class='copy'>
+                    <div class='subtitle'>
+                        CASE STUDY
+                    </div>
+                    <h1>JAMES HARDEN</h1>
+                    <p>The whole website was executed with precision, launched on the eve of the 2015 NBA All-Star Game, including a live video feed for James Harden's fans.</p>
+                    <p><a href='#'>VIEW CASE STUDY &rarr;</a></p>
+                </div>
+                <div class='pager'>
+                    <div class='active'>01</div>
+                    <div>02</div>
+                    <div>03</div>
+                    <div>04</div>
+                </div>
+            </div>
+            <footer>
+                <div class='copyright'>&copy; 2018 MAKE TECHNOLOGY INC., AN ACE SAATCHI & SAATCHI COMPANY</div>
+                <div class='links'>
+                    <img src='assets/icon-facebook10x16px.svg'>
+                    <img src='assets/icon-instagram16x16px.svg'>
+                    <img src='assets/icon-twitter16x13px.svg'>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>

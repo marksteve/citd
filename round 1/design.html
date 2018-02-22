@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * { box-sizing: border-box; margin: 0; }
+            body {
+                font: 12px/1.5 sans-serif;
+                color: #eee;
+            }
+            main { display: flex; align-items: center; justify-content: center; height: 100vh; width: 100vw; }
+            .player {
+                background: linear-gradient(#665533, #332211);
+                border-radius: 10px;
+            }
+            .art {
+                width: 400px;
+                height: 400px;
+                padding: 20px 40px;
+                background: url(assets/album-img339x339px.png) no-repeat center center;
+                background-size: cover;
+            }
+            .progress-bar {
+                height: 5px;
+            }
+            .progress {
+                height: 5px;
+                width: 80%;
+                background: yellow;
+                border-radius: 3px;
+            }
+            .controls {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .title {
+                color: yellow;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class='player'>
+                <div class='art'></div>
+                <div class='progress-bar'><div class='progress'></div></div>
+                <div class='controls'>
+                    <div class='time'>3:00</div>
+                    <div class='btns'>
+                    <img src='assets/icon-previous24x24px.svg'>
+                    <img src='assets/icon-play64x64px.svg'>
+                    <img src='assets/icon-next24x24px.svg'>
+                    </div>
+                    <div class='time'>3:40</div>
+                </div>
+                <div class='info'>
+                    <img src='assets/icon-shuffle22x24px.svg'>
+                    <div class='song'><div class='title'>Shukan Sentimental</div><div class='artist'>SCANDAL</div></div>
+                    <img src='assets/icon-loop29x24px.svg'>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

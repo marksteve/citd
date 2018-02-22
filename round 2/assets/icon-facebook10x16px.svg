@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Social-Media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-243.000000, -48.000000)" fill="#FFFFFF">
+            <path d="M246.0229,64.0004 L245.9999,57.0004 L242.9999,57.0004 L242.9999,54.0004 L245.9999,54.0004 L245.9999,52.0004 C245.9999,49.3014 247.6719,48.0004 250.0799,48.0004 C251.2329,48.0004 252.2239,48.0864 252.5129,48.1244 L252.5129,50.9454 L250.8429,50.9464 C249.5329,50.9464 249.2799,51.5684 249.2799,52.4814 L249.2799,54.0004 L252.9999,54.0004 L251.9999,57.0004 L249.2799,57.0004 L249.2799,64.0004 L246.0229,64.0004 Z" id="icon-facebook"></path>
+        </g>
+    </g>
+</svg>
